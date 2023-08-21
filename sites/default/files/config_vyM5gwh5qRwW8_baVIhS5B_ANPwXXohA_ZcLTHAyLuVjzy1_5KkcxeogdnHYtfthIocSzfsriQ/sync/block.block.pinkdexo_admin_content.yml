@@ -1,0 +1,22 @@
+uuid: 71520541-8544-419b-b32c-2b7612280e0e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - pinkdexo_admin
+_core:
+  default_config_hash: ERBVEJTwmP4R7nCit7fn2LiBMhe8n216iNK8YyrQ1ZA
+id: pinkdexo_admin_content
+theme: pinkdexo_admin
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

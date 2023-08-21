@@ -1,0 +1,108 @@
+uuid: 11736d7d-6a08-46e1-a269-a0396910bfe8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.preview
+    - field.field.media.twitter.field_author
+    - field.field.media.twitter.field_url
+    - image.style.paragraph_preview
+    - media.type.twitter
+  module:
+    - field_group
+    - image
+    - link
+third_party_settings:
+  field_group:
+    group_preview_wrapper:
+      children:
+        - group_thumb_preview
+        - group_content_preview
+      parent_name: ''
+      weight: 0
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: pd-preview-wrapper
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: 'Preview Wrapper'
+      region: content
+    group_content_preview:
+      children:
+        - field_author
+        - field_url
+      parent_name: group_preview_wrapper
+      weight: 21
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: pd-preview-content
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: 'Content Preview'
+      region: content
+    group_thumb_preview:
+      children:
+        - thumbnail
+      parent_name: group_preview_wrapper
+      weight: 20
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: pd-preview-thumb
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: 'Thumb Preview'
+      region: content
+id: media.twitter.preview
+targetEntityType: media
+bundle: twitter
+mode: preview
+content:
+  field_author:
+    type: string
+    weight: 0
+    region: content
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_url:
+    weight: 1
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  thumbnail:
+    type: image
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      image_style: paragraph_preview
+      image_link: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  name: true
+  uid: true

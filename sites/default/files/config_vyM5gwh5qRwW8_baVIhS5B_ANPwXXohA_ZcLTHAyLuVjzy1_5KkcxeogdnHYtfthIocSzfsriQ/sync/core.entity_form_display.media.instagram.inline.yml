@@ -1,0 +1,32 @@
+uuid: c7757cd9-4338-4d3a-bfdc-5bb376cad077
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.inline
+    - field.field.media.instagram.field_author
+    - field.field.media.instagram.field_url
+    - media.type.instagram
+  module:
+    - link
+id: media.instagram.inline
+targetEntityType: media
+bundle: instagram
+mode: inline
+content:
+  field_url:
+    weight: 0
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+hidden:
+  created: true
+  field_author: true
+  langcode: true
+  name: true
+  path: true
+  status: true
+  uid: true

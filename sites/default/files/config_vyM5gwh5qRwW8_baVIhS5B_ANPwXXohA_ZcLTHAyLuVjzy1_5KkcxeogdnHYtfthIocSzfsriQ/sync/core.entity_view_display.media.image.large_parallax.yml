@@ -1,0 +1,32 @@
+uuid: 480e0e5d-85a9-48b2-9e78-b8d5da03c9b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.large_parallax
+    - field.field.media.image.field_description
+    - field.field.media.image.field_image
+    - image.style.large_background
+    - media.type.image
+  module:
+    - image
+id: media.image.large_parallax
+targetEntityType: media
+bundle: image
+mode: large_parallax
+content:
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: large_background
+    third_party_settings: {  }
+    type: image_url
+    region: content
+hidden:
+  created: true
+  field_description: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

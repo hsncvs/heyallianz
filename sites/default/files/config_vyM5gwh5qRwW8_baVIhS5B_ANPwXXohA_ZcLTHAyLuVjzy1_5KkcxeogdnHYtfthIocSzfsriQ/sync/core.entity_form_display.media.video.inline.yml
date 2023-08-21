@@ -1,0 +1,38 @@
+uuid: 385370bf-bd7c-487c-8500-ddeb7b97ff47
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.inline
+    - field.field.media.video.field_description
+    - field.field.media.video.field_media_video_file
+    - media.type.video
+  module:
+    - file
+id: media.video.inline
+targetEntityType: media
+bundle: video
+mode: inline
+content:
+  field_media_video_file:
+    type: file_generic
+    weight: 2
+    region: content
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_description: true
+  langcode: true
+  path: true
+  status: true
+  uid: true

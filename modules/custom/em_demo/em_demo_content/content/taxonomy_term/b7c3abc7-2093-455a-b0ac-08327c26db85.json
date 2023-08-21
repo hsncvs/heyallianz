@@ -1,0 +1,103 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/fashion?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/channel"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/channel\/parent": [
+            null
+        ]
+    },
+    "tid": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "b7c3abc7-2093-455a-b0ac-08327c26db85"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 6
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "channel"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-12-15T21:30:46+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "Fashion",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/channel\/parent": [
+            null
+        ]
+    },
+    "changed": [
+        {
+            "value": "2017-12-23T22:34:46+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Fashion | EM Magazine",
+                "canonical_url": "http:\/\/default\/fashion",
+                "robots": "index, follow"
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/fashion",
+            "pid": 8,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ]
+}

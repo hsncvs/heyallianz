@@ -1,0 +1,359 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/looking-something-little-more-gourmet?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_channel": [
+            {
+                "href": "http:\/\/default\/travel-eats?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_paragraphs": [
+            {
+                "href": ""
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tag\/food?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/default\/tag\/wine?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/default\/tag\/tips?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_teaser_media": [
+            {
+                "href": "http:\/\/default\/media\/55?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 13
+        }
+    ],
+    "uuid": [
+        {
+            "value": "3814c6ef-dc82-42d1-a071-92e9c77ab2b0"
+        }
+    ],
+    "vid": [
+        {
+            "value": 101
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-01-30T14:31:30+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "71a820d3-46ab-410a-9c30-77559f56ab66"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "71a820d3-46ab-410a-9c30-77559f56ab66"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_channel": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/travel-eats?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/channel"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "73adea85-3d25-4a62-ae4c-00e8649a8aeb"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_paragraphs": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/text"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "751309d4-fd6c-4530-9e89-9180b661b316"
+                    }
+                ],
+                "target_revision_id": "234"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tag\/food?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ea6ef64b-64b1-4663-a1b8-6569c8727bc6"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tag\/wine?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e9a61b41-ec93-4b7c-b418-b582ce4c7bf1"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tag\/tips?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0150f821-645a-416a-bbef-0cab98d12c61"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_teaser_media": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/55?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d486ac54-9338-4b97-8904-8d64aa11bc1d"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Looking for something a little more gourmet?",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-01-30T14:28:38+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-30T22:28:52+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "editors_picks": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "featured_item": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "teaser_featured": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "teaser_highlighted": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Looking for something a little more gourmet? | EM Magazine",
+                "twitter_cards_type": "summary_large_image",
+                "canonical_url": "http:\/\/default\/looking-something-little-more-gourmet",
+                "robots": "index, follow",
+                "description": "Do you have bookshelves overflowing with cookbooks that you use only a few recipes out of, if any at all?",
+                "twitter_cards_title": "Combo 6",
+                "og_type": "article",
+                "twitter_cards_description": "Do you have bookshelves overflowing with cookbooks that you use only a few recipes out of, if any at all?",
+                "og_url": "http:\/\/default\/combo\/6",
+                "og_title": "Combo 6",
+                "image_src": "http:\/\/default\/sites\/default\/files\/2018-10\/default-img_1.png",
+                "keywords": "food, wine, tips",
+                "twitter_cards_page_url": "http:\/\/default\/looking-something-little-more-gourmet",
+                "og_description": "Do you have bookshelves overflowing with cookbooks that you use only a few recipes out of, if any at all?",
+                "twitter_cards_image_width": "1024",
+                "twitter_cards_image": "http:\/\/default\/sites\/default\/files\/styles\/twitter\/public\/2018-10\/default-img_1.png?h=f87a8817&itok=hvDUrsuG",
+                "twitter_cards_image_height": "512",
+                "og_image_0": "http:\/\/default\/sites\/default\/files\/styles\/facebook\/public\/2018-10\/default-img_1.png?h=f87a8817&itok=KWwSECQj",
+                "og_image_width": "1200",
+                "og_image_height": "630",
+                "og_updated_time": "2018-10-30T22:28:52+00:00",
+                "article_tag_0": "food",
+                "article_tag_1": "wine",
+                "article_tag_2": "tips",
+                "article_published_time": "2018-01-30T14:28:38+00:00",
+                "article_modified_time": "2018-10-30T22:28:52+00:00"
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/looking-something-little-more-gourmet",
+            "pid": 22,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "comment": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1540938532,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0,
+            "lang": "en"
+        }
+    ],
+    "field_teaser_text": [
+        {
+            "value": "Do you have bookshelves overflowing with cookbooks that you use only a few recipes out of, if any at all?"
+        }
+    ],
+    "panelizer": [
+        {
+            "view_mode": "full",
+            "default": "layout_3",
+            "panels_display": [],
+            "lang": "en"
+        }
+    ]
+}

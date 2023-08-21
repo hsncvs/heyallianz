@@ -1,0 +1,102 @@
+uuid: d4fc88f9-30ab-40b3-aaba-f330791e8f1d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.preview
+    - field.field.media.image.field_description
+    - field.field.media.image.field_image
+    - image.style.paragraph_preview
+    - media.type.image
+  module:
+    - field_group
+    - image
+third_party_settings:
+  field_group:
+    group_preview_wrapper:
+      children:
+        - group_thumb_preview
+        - group_content_preview
+      parent_name: ''
+      weight: 0
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: pd-preview-wrapper
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: 'Preview Wrapper'
+      region: content
+    group_thumb_preview:
+      children:
+        - field_image
+      parent_name: group_preview_wrapper
+      weight: 9
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: pd-preview-thumb
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: 'Thumb Preview'
+      region: content
+    group_content_preview:
+      children:
+        - name
+        - field_description
+      parent_name: group_preview_wrapper
+      weight: 10
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: pd-preview-content
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: 'Content Preview'
+      region: content
+id: media.image.preview
+targetEntityType: media
+bundle: image
+mode: preview
+content:
+  field_description:
+    type: basic_string
+    weight: 12
+    region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+  field_image:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: paragraph_preview
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  name:
+    type: string
+    weight: 11
+    region: content
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  thumbnail: true
+  uid: true

@@ -1,0 +1,413 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/13-best-new-menswear-items-buy-week?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_channel": [
+            {
+                "href": "http:\/\/default\/mens-fashion?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_paragraphs": [
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tag\/menswear?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/default\/tag\/best-staff?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_teaser_media": [
+            {
+                "href": "http:\/\/default\/media\/55?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d2c39dee-55fc-43c0-a327-c648a09ca5c7"
+        }
+    ],
+    "vid": [
+        {
+            "value": 91
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2017-12-24T01:41:54+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "71a820d3-46ab-410a-9c30-77559f56ab66"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "71a820d3-46ab-410a-9c30-77559f56ab66"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_channel": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/mens-fashion?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/channel"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1fda1f34-ae14-439b-9895-2ccf04324922"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_paragraphs": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/text"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "83b0c853-e1dc-457e-a0e6-1b43f7e95fb5"
+                    }
+                ],
+                "target_revision_id": "197"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/embed_video"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e1493c17-144a-49f4-a1a4-fdfe360a0999"
+                    }
+                ],
+                "target_revision_id": "357"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/text"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c272dc0a-2759-4af5-a324-931fc360c44e"
+                    }
+                ],
+                "target_revision_id": "363"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/text"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "87de70d4-78ae-4249-b2f1-a8658403c051"
+                    }
+                ],
+                "target_revision_id": "241"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/text"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5d679daa-e1cb-4819-904d-e1c6f622f71a"
+                    }
+                ],
+                "target_revision_id": "245"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tag\/menswear?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5f684095-28c9-40a9-9cdd-64759cbae90d"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tag\/best-staff?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b5bfd7e7-e36f-4e9c-9fdc-ecfc883fdce5"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_teaser_media": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/55?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d486ac54-9338-4b97-8904-8d64aa11bc1d"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "The 13 Best New Menswear Items to Buy This Week",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-12-23T23:00:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-03-28T05:21:30+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "editors_picks": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "featured_item": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "teaser_featured": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "teaser_highlighted": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "The 13 Best New Menswear Items to Buy This Week | EM Magazine",
+                "twitter_cards_type": "summary_large_image",
+                "canonical_url": "http:\/\/default\/13-best-new-menswear-items-buy-week",
+                "robots": "index, follow",
+                "description": "Praesent id augue suscipit, consequat urna nec, laoreet orci. Sed convallis, diam vel dictum fringilla, justo ...",
+                "og_type": "article",
+                "twitter_cards_description": "Praesent id augue suscipit, consequat urna nec, laoreet orci. Sed convallis, diam vel dictum fringilla, justo ...",
+                "og_url": "http:\/\/default\/combo\/6",
+                "og_title": "Combo 6",
+                "image_src": "http:\/\/default\/sites\/default\/files\/2018-10\/default-img_1.png",
+                "keywords": "menswear, best staff",
+                "twitter_cards_page_url": "http:\/\/default\/13-best-new-menswear-items-buy-week",
+                "og_description": "Praesent id augue suscipit, consequat urna nec, laoreet orci. Sed convallis, diam vel dictum fringilla, justo ...",
+                "twitter_cards_image_width": "1024",
+                "twitter_cards_image": "http:\/\/default\/sites\/default\/files\/styles\/twitter\/public\/2018-10\/default-img_1.png?h=f87a8817&itok=hvDUrsuG",
+                "twitter_cards_image_height": "512",
+                "og_image_0": "http:\/\/default\/sites\/default\/files\/styles\/facebook\/public\/2018-10\/default-img_1.png?h=f87a8817&itok=KWwSECQj",
+                "og_image_width": "1200",
+                "og_image_height": "630",
+                "og_updated_time": "2018-03-28T06:21:30+01:00",
+                "article_tag_0": "menswear",
+                "article_tag_1": "best staff",
+                "article_published_time": "2017-12-23T23:00:16+00:00",
+                "article_modified_time": "2018-03-28T06:21:30+01:00"
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/13-best-new-menswear-items-buy-week",
+            "pid": 12,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "comment": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1522214490,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0,
+            "lang": "en"
+        }
+    ],
+    "field_teaser_text": [
+        {
+            "value": "Praesent id augue suscipit, consequat urna nec, laoreet orci. Sed convallis, diam vel dictum fringilla, justo ..."
+        }
+    ],
+    "panelizer": [
+        {
+            "view_mode": "full",
+            "default": "layout_1",
+            "panels_display": [],
+            "lang": "en"
+        }
+    ]
+}

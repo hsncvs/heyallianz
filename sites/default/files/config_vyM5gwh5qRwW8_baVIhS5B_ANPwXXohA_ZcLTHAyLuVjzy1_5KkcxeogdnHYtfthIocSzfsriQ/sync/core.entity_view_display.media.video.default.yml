@@ -1,0 +1,35 @@
+uuid: 2a5704e3-1ae5-4867-a1b9-22d7d1bec27b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.video.field_description
+    - field.field.media.video.field_media_video_file
+    - media.type.video
+  module:
+    - file
+id: media.video.default
+targetEntityType: media
+bundle: video
+mode: default
+content:
+  field_description:
+    type: basic_string
+    weight: 1
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_media_video_file:
+    type: file_url_plain
+    weight: 0
+    region: content
+    label: visually_hidden
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

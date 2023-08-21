@@ -1,0 +1,138 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/poll\/1?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/poll\/poll"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/poll\/poll\/choice": [
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "50ddb4fa-57da-4aff-8794-45f814f280ef"
+        }
+    ],
+    "question": [
+        {
+            "value": "How do you feel right now?",
+            "lang": "en"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/poll\/poll\/choice": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/poll_choice\/poll_choice"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1945465a-89af-45c0-b491-20d33a79d8be"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/poll_choice\/poll_choice"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8f469b0f-a8e7-4268-ade2-e70162211528"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/poll_choice\/poll_choice"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "606d638a-183a-40ec-8730-1bf095e66658"
+                    }
+                ]
+            }
+        ]
+    },
+    "runtime": [
+        {
+            "value": 0
+        }
+    ],
+    "anonymous_vote_allow": [
+        {
+            "value": false
+        }
+    ],
+    "cancel_vote_allow": [
+        {
+            "value": false
+        }
+    ],
+    "result_vote_allow": [
+        {
+            "value": true
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-28T12:26:38+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Combo 6 | EM Magazine",
+                "canonical_url": "http:\/\/default\/combo\/6",
+                "robots": "index, follow"
+            }
+        }
+    ]
+}

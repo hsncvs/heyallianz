@@ -1,0 +1,17 @@
+{% if (lang == 'tr') %}
+        <a href="{{ url('<front>') }}" class="logo" title="{{ 'Home'|t }}">
+          <img src="{{ pd.base_path }}{{ pd.logo.light }}" alt="" class="img-fluid logo-light">
+          <img src="{{ pd.base_path }}{{ pd.logo.dark}}" alt="" class="img-fluid logo-dark">
+        </a>
+{% elseif (lang == 'en') %}
+        <a href="{{ url('<front>') }}" class="logo" title="{{ 'Home'|t }}">
+          <img src="/{{ directory }}/assets/images/hey-logo-eng.png" alt="" class="img-fluid logo-light">
+          <img src="/{{ directory }}/assets/images/hey-logo-eng.png" alt="" class="img-fluid logo-dark">
+        </a>
+{% else %}
+        <a href="{{ url('<front>') }}" class="logo" title="{{ 'Home'|t }}">
+          <img src="{{ pd.base_path }}{{ pd.logo.light }}" alt="" class="img-fluid logo-light">
+          <img src="{{ pd.base_path }}{{ pd.logo.dark}}" alt="" class="img-fluid logo-dark">
+        </a>
+{% endif %}
+

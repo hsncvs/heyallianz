@@ -1,0 +1,19 @@
+uuid: ecb74cb9-4002-4527-9912-eb9cf0e7217d
+langcode: en
+status: true
+dependencies:
+  module:
+    - panelizer
+    - user
+id: user.panelizer
+field_name: panelizer
+entity_type: user
+type: panelizer
+settings: {  }
+module: panelizer
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

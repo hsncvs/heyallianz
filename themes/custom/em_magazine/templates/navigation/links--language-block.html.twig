@@ -1,0 +1,33 @@
+{% if links and links|length > 1 -%}
+  <div class="d-flex mr-1">
+    {%- for item in links -%}
+        {%- if item.link -%}
+
+          <!--{{ item.link }}-->
+
+          {% if item.link['#options'].language.id == current_language %}
+            {% set classes = ['is-active'] %}
+          {% else %}
+            {% set classes = [''] %}
+          {% endif %}
+          {% set url = path(item.link['#url'].routeName, item.link['#url'].routeParameters, item.link['#url'].options) %}
+
+        {%- else -%}
+          {% set classes = ['disabled'] %}
+          {% set url = '#' %}
+        {%- endif -%}
+
+
+      	<div{{ item.attributes.addClass(classes, 'nav-link') }}>
+
+        <a href="{{ url }}"
+          {{ item.attributes.addClass('language-link').removeClass('nav-link') }}
+          {{ item.attributes.setAttribute('title', item.text ) }}
+          {{ item.attributes.setAttribute('lang', item.link['#options'].language.id ) }}
+          {{ item.attributes.setAttribute('aria-label', item.text ) }}>
+            {{ item.link['#options'].language.id | upper }}
+        </a>
+      </div>
+    {%- endfor -%}
+  </div>
+{%- endif %}

@@ -1,0 +1,104 @@
+uuid: 594a7f0c-49f5-410c-873c-71e767497764
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.preview
+    - field.field.media.embed_video.field_description
+    - field.field.media.embed_video.field_media_video_embed_field
+    - image.style.paragraph_preview
+    - media.type.embed_video
+  module:
+    - field_group
+    - video_embed_field
+third_party_settings:
+  field_group:
+    group_wrapper:
+      children:
+        - group_pd_preview_thumb
+        - group_pd_preview_content
+      parent_name: ''
+      weight: 0
+      format_type: html_element
+      format_settings:
+        label: 'Preview Wrapper'
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+        id: ''
+        classes: pd-preview-wrapper
+      label: 'Preview Wrapper'
+      region: content
+    group_pd_preview_thumb:
+      children:
+        - field_media_video_embed_field
+      parent_name: group_wrapper
+      weight: 8
+      format_type: html_element
+      format_settings:
+        label: 'Preview Thumb'
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+        id: ''
+        classes: pd-preview-thumb
+      label: 'Preview Thumb'
+      region: content
+    group_pd_preview_content:
+      children:
+        - name
+        - field_description
+      parent_name: group_wrapper
+      weight: 9
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: pd-preview-content
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: 'Preview Content'
+      region: content
+id: media.embed_video.preview
+targetEntityType: media
+bundle: embed_video
+mode: preview
+content:
+  field_description:
+    type: basic_string
+    weight: 11
+    region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+  field_media_video_embed_field:
+    weight: 1
+    label: visually_hidden
+    settings:
+      image_style: paragraph_preview
+      link_image_to: ''
+    third_party_settings: {  }
+    type: video_embed_field_thumbnail
+    region: content
+  name:
+    type: string
+    weight: 10
+    region: content
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  thumbnail: true
+  uid: true

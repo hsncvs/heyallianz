@@ -1,0 +1,10 @@
+uuid: f54fe076-642a-468c-8f62-39afcc17b143
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.preview
+label: 'Paragraphs Preview'
+targetEntityType: media
+cache: true

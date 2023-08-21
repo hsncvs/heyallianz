@@ -1,0 +1,429 @@
+/* Fonts */
+@font-face {
+    font-family: 'Aye Matey';
+    src: url('../fonts/AyeMatey.eot');
+    src: url('../fonts/AyeMatey.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AyeMatey.woff2') format('woff2'),
+        url('../fonts/AyeMatey.woff') format('woff'),
+        url('../fonts/AyeMatey.ttf') format('truetype'),
+        url('../fonts/AyeMatey.svg#AyeMatey') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Rounded';
+    src: url('../fonts/GothamRounded-Light.eot');
+    src: url('../fonts/GothamRounded-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GothamRounded-Light.woff2') format('woff2'),
+        url('../fonts/GothamRounded-Light.woff') format('woff'),
+        url('../fonts/GothamRounded-Light.ttf') format('truetype'),
+        url('../fonts/GothamRounded-Light.svg#GothamRounded-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Rounded';
+    src: url('../fonts/GothamRounded-Medium.eot');
+    src: url('../fonts/GothamRounded-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GothamRounded-Medium.woff2') format('woff2'),
+        url('../fonts/GothamRounded-Medium.woff') format('woff'),
+        url('../fonts/GothamRounded-Medium.ttf') format('truetype'),
+        url('../fonts/GothamRounded-Medium.svg#GothamRounded-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Rounded';
+    src: url('../fonts/GothamRounded-BookItalic.eot');
+    src: url('../fonts/GothamRounded-BookItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GothamRounded-BookItalic.woff2') format('woff2'),
+        url('../fonts/GothamRounded-BookItalic.woff') format('woff'),
+        url('../fonts/GothamRounded-BookItalic.ttf') format('truetype'),
+        url('../fonts/GothamRounded-BookItalic.svg#GothamRounded-BookItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Rounded';
+    src: url('../fonts/GothamRounded-Bold.eot');
+    src: url('../fonts/GothamRounded-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GothamRounded-Bold.woff2') format('woff2'),
+        url('../fonts/GothamRounded-Bold.woff') format('woff'),
+        url('../fonts/GothamRounded-Bold.ttf') format('truetype'),
+        url('../fonts/GothamRounded-Bold.svg#GothamRounded-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Rounded';
+    src: url('../fonts/GothamRounded-MediumItalic.eot');
+    src: url('../fonts/GothamRounded-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GothamRounded-MediumItalic.woff2') format('woff2'),
+        url('../fonts/GothamRounded-MediumItalic.woff') format('woff'),
+        url('../fonts/GothamRounded-MediumItalic.ttf') format('truetype'),
+        url('../fonts/GothamRounded-MediumItalic.svg#GothamRounded-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Rounded';
+    src: url('../fonts/GothamRounded-Book.eot');
+    src: url('../fonts/GothamRounded-Book.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GothamRounded-Book.woff2') format('woff2'),
+        url('../fonts/GothamRounded-Book.woff') format('woff'),
+        url('../fonts/GothamRounded-Book.ttf') format('truetype'),
+        url('../fonts/GothamRounded-Book.svg#GothamRounded-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Rounded';
+    src: url('../fonts/GothamRounded-LightItalic.eot');
+    src: url('../fonts/GothamRounded-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GothamRounded-LightItalic.woff2') format('woff2'),
+        url('../fonts/GothamRounded-LightItalic.woff') format('woff'),
+        url('../fonts/GothamRounded-LightItalic.ttf') format('truetype'),
+        url('../fonts/GothamRounded-LightItalic.svg#GothamRounded-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Rounded';
+    src: url('../fonts/GothamRounded-BoldItalic.eot');
+    src: url('../fonts/GothamRounded-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GothamRounded-BoldItalic.woff2') format('woff2'),
+        url('../fonts/GothamRounded-BoldItalic.woff') format('woff'),
+        url('../fonts/GothamRounded-BoldItalic.ttf') format('truetype'),
+        url('../fonts/GothamRounded-BoldItalic.svg#GothamRounded-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Hover Effects */
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+/* Reset */
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, input[type=text], input[type=password], input[type=color], input[type=date], input[type=datetime-local], input[type=email], input[type=month], input[type=number], input[type=range], input[type=search], input[type=tel], input[type=time], input[type=url], input[type=week], select, textarea, .form-item {font-family: "Gotham Rounded", sans-serif;}
+
+/* Header */
+.header--bottom-wrapper {padding: 0;border-bottom: 1px solid rgba(255,255,255,0.35);}
+.header--top-wrapper {padding-top: 50px;}
+.header--top-wrapper .social-menu {margin-bottom: 10px;}
+.header .social-menu a {font-size: 14px;}
+.header .social-menu a:last-child {margin-right: 0;}
+.header .logo {margin-top: -100px; position: absolute; width: 101px; transition: 0.5s; -webkit-transition: 0.5s;}
+.header .logo:hover {-webkit-transform: scale(1.3); -ms-transform: scale(1.3); transform: scale(1.3);}
+.header--action-menu li:first-child {border-left: 2px solid #263238; border-right: 2px solid #263238;}
+.header--action-menu li {border-left: 0;}
+.header--action-menu li:first-child button {padding: 0 10px;}
+.search-block-wrapper form .form-type-search:after {content: 'Aramak istediğiniz kelimeyi girin ve Enter\'a basın'}
+.search-block-wrapper:lang(en) form .form-type-search:after {content: 'Enter the word you want to search for and press Enter'}
+.page-heading-wrapper {background: url('../images/dotted-line.png') no-repeat 150% center #7ea696; padding: 4rem 0 2rem; margin-bottom: 1.5rem;}
+.page-heading-wrapper h1 {color: #fff;}
+.page-heading-wrapper .field--name-field-color {display: none;}
+.teaser--compact .teaser__headline {font-size: 1.6rem; line-height: 1.4;}
+.teaser--compact .channel--bordered.teaser__channel {padding: 0 30px 5px 30px; background-color: #7ea696;}
+.teaser--compact .channel--bordered.teaser__channel .field--name-field-channel {margin-top: -5px;}
+.teaser--compact .teaser__link, .teaser--compact .teaser__content {z-index: 10!important;}
+.teaser--compact:before {z-index: 6!important;}
+.sidebar-close {float: right; position: relative; margin-top: 10px; margin-right: 20px; font-size: 24px; z-index: 9999;}
+/*.page-heading-wrapper h1.page-title {margin-top: 50px;}*/
+
+/* Menu */
+.we-mega-menu-ul {margin-top: -10px;}
+.navbar-we-mega-menu.navbar .we-mega-menu-ul > li.we-mega-menu-li {margin-right: 20px;}
+.navbar-we-mega-menu.navbar .we-mega-menu-ul > li.we-mega-menu-li:last-child {margin-right: 80px;}
+.navbar-we-mega-menu.navbar .we-mega-menu-ul > li.we-mega-menu-li > a, .navbar-we-mega-menu.navbar .we-mega-menu-ul > li.we-mega-menu-li > span {cursor: pointer; font-family: "Aye Matey", sans-serif; margin-top: 8px; margin-left: 30px; padding-bottom: 10px; text-transform: uppercase;}
+.navbar-we-mega-menu.navbar .we-mega-menu-ul > li.we-mega-menu-li:hover, .navbar-we-mega-menu.navbar .we-mega-menu-ul > li.we-mega-menu-li > a:hover, .navbar-we-mega-menu.navbar .we-mega-menu-ul > li.we-mega-menu-li > span:hover {background: none!important; color: inherit!important;}
+.navbar-we-mega-menu.navbar .we-mega-menu-ul > li.we-mega-menu-li:hover:before {-webkit-animation: swing 1s ease; animation: swing 1s ease; -webkit-animation-iteration-count: 1; animation-iteration-count: 1;}
+.navbar-we-mega-menu.navbar .we-mega-menu-ul > li.we-mega-menu-li.active-trail {background: none;}
+.we-mega-menu-ul li.we-mega-menu-li:first-child:before {content: ''; background:url('../images/allianzda-hey.png'); width: 31px; height: 50px; position: absolute;}
+.we-mega-menu-ul li.we-mega-menu-li:nth-child(2):before {content: ''; background:url('../images/okuyarak-ogren.png'); width: 60px; height: 57px; position: absolute; margin-top: -10px;}
+.we-mega-menu-ul li.we-mega-menu-li:nth-child(3):before {content: ''; background:url('../images/izleyerek-ogren.png'); width: 69px; height: 37px; position: absolute; margin-top: 5px;}
+.we-mega-menu-ul li.we-mega-menu-li:nth-child(4):before {content: ''; background:url('../images/allianz-hakkinda.png'); width: 45px; height: 45px; position: absolute;}
+.we-mega-menu-ul li.we-mega-menu-li:nth-child(2) > a, .we-mega-menu-ul .we-mega-menu-li:nth-child(2) > span {padding-left: 30px!important;}
+.we-mega-menu-ul li.we-mega-menu-li:nth-child(3) > a, .we-mega-menu-ul .we-mega-menu-li:nth-child(3) > span {padding-left: 40px!important;}
+.we-mega-menu-ul li.we-mega-menu-li:nth-child(4) > a, .we-mega-menu-ul .we-mega-menu-li:nth-child(4) > span {padding-left: 25px!important;}
+
+/* Breadcumb */
+.block-region-tabs .tabs ul.primary > li a {color: #fff; border-bottom: none;}
+.block-region-tabs .tabs ul.primary > li a:hover {color: #fff;}
+
+/* Homepage */
+.content-grid-3 > .view-content .teaser__headline, .content-grid-3 .views-element-container:first-child .view-content .teaser__headline {font-size: 1.6rem; line-height: 1.4;}
+.teaser--compact .teaser__headline {margin-bottom: 0;}
+.teaser--compact .teaser__channel {font-family: "Aye Matey", sans-serif; text-transform: uppercase; /*background-color: #ef7e12;*/ margin-left: -30px; padding: 0 30px 0px 30px;}
+.teaser--compact .teaser__channel a {margin-top: -11px; font-size: 24px;}
+.teaser--compact .teaser__channel a:hover {text-decoration: none;}
+/*.content-grid-3 > .attachment-after .teaser .teaser__channel {background-color: #dc7599;}
+.content-grid-3 .views-element-container:last-child .view-content div:first-child .teaser .teaser__channel {background-color: #8dbda9;}
+.content-grid-3 .views-element-container:last-child .view-content .teaser .teaser__channel {background-color: #e5a799;}*/
+.content-grid-3 .views-element-container:last-child .view-content .teaser__headline {font-size: 1.5rem; line-height: 1.4; margin-bottom: 0!important;}
+.homepage-shape {background: url(../images/homepage-shape.png) no-repeat left center; margin-top: -54px; width: 100%; height: 28px; background-size: 100%;}
+.block-block-content0890c7c6-b642-4bc5-8282-5b6b653e5b4e {position: absolute;}
+.hey-nedir-img {transition: 0.5s; -webkit-transition: 0.5s;}
+.hey-nedir-img:hover {-webkit-transform: rotateZ(-30deg); -ms-transform: rotateZ(-30deg); transform: rotateZ(-30deg);}
+.view-em-example-14 {margin-left: 250px; margin-top: -30px; width: 110%;}
+.view-em-example-14 .grid-lg--4-columns > ul > li {padding-left: 10px;}
+.teaser--item--small {margin-top: 15px;}
+.image--circular img, .teaser__image.image--circular a:before {max-width: 80%;}
+.teaser--item--small .teaser__content {padding-left: 0.2em;}
+.teaser--item--small .teaser__headline {font-size: 0.8em; font-weight: 400;}
+
+/* Single */
+.block-region-article-header {margin-top: 100px;}
+.channel--bordered, .layout-region--article-header .field--name-field-channel {border-left: none; width: fit-content; display: table; font-family: "Aye Matey", sans-serif; padding: 0 30px 5px 30px;}
+.channel--bordered, .layout-region--article-header .field--name-field-channel a {margin-top: -11px; font-size: 24px; display: inline-table;}
+.channel--bordered, .layout-region--article-header .field--name-field-channel a:hover {text-decoration: none; color: #fff; opacity: 1;}
+.layout-region--article-header .block-entity-fieldnodefield-channel:nth-child(2), .layout-region--article-header .field--name-field-color {display: none;}
+/* .views-field {display: none;} */
+.views-field .post-meta span {margin-right: 20px;}
+.views-field .post-meta i {margin-top: -5px; margin-right: 5px;}
+.reading-time__label {margin-right: 0!important;}
+.reading-time__word-count {display: none;}
+.block-shariff-block {margin-top: 3rem;}
+.shariff ul.theme-white li.whatsapp a:hover, .shariff ul.theme-grey li.whatsapp a:hover {background-color: #25d366; border-color: #25d366;}
+.single-header-shape {background: url(../images/single-header-shape.png) no-repeat left center; margin-bottom: 70px; width: 100%; height: 27px; background-size: 100%;}
+.block-region-article-content, .page-node-type-page .block-region-content {background: url(../images/single-shape.png) no-repeat center center;}
+.block-region-content {margin-top: 1rem;}
+.layout--article-layout-1 .content-bottom-wrapper {margin-top: 100px;}
+.paragraph--type--text img {max-width: 100%;}
+.messages.messages--status {display: none; margin-bottom: 50px; margin-top: -50px;}
+
+/* Comments */
+.comments-wrapper {background: url('../images/dotted-line-black.png') no-repeat right bottom #f5f5f5;}
+.comment-links-wrapper {display: none!important;}
+
+/* Footer */
+.page-footer {margin-top: 110px;}
+.page-footer__top-shape {background: url(../images/footer-shape.png) no-repeat; width: 73px; height: 91px; position: absolute; margin: -45px 0 0 11%;}
+.page-footer__top-wrapper {background-color: #7ea696; padding: 2.5rem 0;}
+.page-footer__top-wrapper .block:last-child {color: #fff;}
+.page-footer__top-wrapper .social-menu a {width: 50px; height: 50px; border: 1.5px solid #fff;}
+.page-footer__top-wrapper .footer-logo {position: absolute; right: 11%; margin-top: -75px;}
+.page-footer__top-wrapper .footer-logo a:hover {opacity: 1;}
+.page-footer__top-wrapper .footer-terms {position: absolute; left: 11%; margin-top: -70px;}
+
+/* Responsive */
+@media (min-width: 992px){
+	/* Homepage */
+	.view-em-example-14 .grid-lg--4-columns > ul > li {flex: 0 0 19%;max-width: 19%;}
+}
+@media (max-width: 992px){
+	/* Homepage */
+	.homepage-shape {margin-top: -56px;}
+	.block-block-content0890c7c6-b642-4bc5-8282-5b6b653e5b4e {position: inherit;}
+	.view-em-example-14 {margin-left: 0; margin-top: 0; width: inherit;}
+	.teaser--item--small {margin-top: 0;}
+	.teaser--item--small .teaser__headline {font-size: 1.1rem;}
+	
+	/* Single */
+	.single-header-shape {margin-top: -7px;}
+	
+	/* Footer */
+	.page-footer__top-shape {margin-left: 2%;}
+	.page-footer__top-wrapper .footer-logo {position: inherit; margin-top: 15px;}
+}
+@media (max-width: 768px){
+	/* Homepage */
+	.homepage-shape {margin-top: -57px; width: 150%; height: 42px;}
+	
+	/* Single */
+	.single-header-shape {margin-top: -9px; width: 150%; height: 44px;}
+	
+	/* Footer */
+	/* .page-footer__top-shape {display: none;} */
+	.page-footer__top-wrapper .footer-terms {position: unset; margin-top: 15px;}
+}
+@media (max-width: 576px){
+	/* Homepage */
+	.homepage-shape {margin-top: -51px; width: 340%; height: 40px;}
+	.content-grid-3 .views-element-container:last-child .view-content .teaser__channel a {font-size: 18px;}
+	.content-grid-3 .views-element-container:last-child .view-content .teaser__headline {font-size: 1.2rem; padding-right: 10px;}
+	.content-grid-3 .views-element-container:last-child .view-content .teaser__content {padding: 30px 0px 30px 30px;}	
+
+	/* Single */
+	.layout--article-layout-1 .article-header-wrapper {height: auto;}
+	.layout--article-layout-1 .article-header-wrapper .page-title {font-size: 2.1rem;}
+	.single-header-shape {width: 358%; height: 46px;}
+}
+@media (max-width: 320px){
+	/* Homepage */
+	.search-block-wrapper form input[type="search"] {font-size: 1.5rem;}
+	.content-grid-3 .views-element-container:last-child .view-content .teaser__channel a {font-size: 15px;}
+	.content-grid-3 .views-element-container:last-child .view-content .teaser__headline {font-size: 1rem;}
+
+	/* Single */
+	/* .layout--article-layout-1 .article-header-wrapper {height: auto;} */
+	/* .layout--article-layout-1 .article-header-wrapper .page-title {font-size: 2.1rem;} */
+	.views-field .post-meta span {margin-right: 15px;}
+	/* .block-shariff-block {margin-top: 0rem;} */
+	.shariff a {padding: 0.6rem 0.5rem;}
+	.single-header-shape {height: 42px;}
+}
+
+/*
+ * header--overlay-style.css
+ */
+/* .header--action-menu li:first-child {
+  border-left: 2px solid #fff!important;
+  border-right: 2px solid #fff!important;
+}
+
+.we-mega-menu-ul .we-mega-menu-li:nth-child(4):before {
+  background:url('../../../../../em_magazine/assets/images/allianz-hakkinda-beyaz.png')!important;
+} */
+
+/* GPDR */
+div#sliding-popup, div#sliding-popup .eu-cookie-withdraw-banner, .eu-cookie-withdraw-tab {
+    padding-top: 15px
+}
+.eu-cookie-compliance-content{
+    max-width: 95%;
+}
+.eu-cookie-compliance-message {
+    max-width: 85%;
+}
+.eu-cookie-compliance-message h2 {
+    font-size: 14px;
+}
+.eu-cookie-compliance-message p {
+    line-height: 16px;
+    display: inherit;
+    font-weight: normal;
+    font-size: 10px;
+}
+.disagree-button.eu-cookie-compliance-more-button, .eu-cookie-compliance-agree-button, .eu-cookie-compliance-default-button, .eu-cookie-compliance-hide-button, .eu-cookie-compliance-more-button-thank-you, .eu-cookie-withdraw-button, .eu-cookie-compliance-save-preferences-button {
+    background-image: none;
+    background-color: #000;
+    color: #fff;
+    box-shadow: none;
+    border: none;
+    padding :8px 12px;
+    font-family: inherit;
+    font-weight: normal;
+    text-shadow: none;
+    font-size: 16px;
+    transition: background-color .2s ease,color .2s ease,opacity .2s ease;
+}
+.disagree-button.eu-cookie-compliance-more-button:hover, .eu-cookie-compliance-agree-button:hover, .eu-cookie-compliance-default-button:hover, .eu-cookie-compliance-hide-button:hover, .eu-cookie-compliance-more-button-thank-you:hover, .eu-cookie-withdraw-button:hover, .eu-cookie-compliance-save-preferences-button:hover {
+   background-image: none;
+   background-color: rgba(0,0,0,0.7);
+   color: #fff;
+   border: none;
+   box-shadow: none;
+}
+#gpdr-more {
+   display: none;
+}
+#gpdr-more:target {
+   display: block;
+}
+
+
+.language-link {
+  text-decoration: none;
+  line-height: 1.9;
+  font-weight: bold;
+  padding: .4rem 0.4rem;
+  color: #7ea696 !important; }
+
+.language-link.is-active {
+    color: white !important; }
+
+
+.language-switcher-language-url .nav-link {
+  border: 2px solid #7ea696;
+  border-radius: 5px;
+  padding: 0;
+  min-width: 2.5rem;
+  margin: 0.25rem 0.25rem;
+  text-align: center;
+  background-color: white; }
+
+.language-switcher-language-url .nav-link.is-active {
+    background-color: #7ea696;
+    color: white; }
+

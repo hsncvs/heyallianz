@@ -1,0 +1,15 @@
+color-library:
+  version: VERSION
+  css:
+    theme:
+      color/colors.css: { weight: 100 }
+
+custom-css:
+  css:
+    theme:
+      assets/css/custom.css: {}
+  js:
+    assets/js/reading-time.js: {}
+    assets/js/custom.js: {}
+  dependencies:
+    - core/jquery

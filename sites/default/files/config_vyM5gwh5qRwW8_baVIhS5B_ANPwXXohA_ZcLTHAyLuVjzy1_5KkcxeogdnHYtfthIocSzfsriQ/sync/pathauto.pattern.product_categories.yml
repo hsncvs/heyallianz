@@ -1,0 +1,23 @@
+uuid: 401a61ff-4c92-4641-ab08-2793fa79ae6f
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: product_categories
+label: 'Product categories'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'shop/[term:name]'
+selection_criteria:
+  f76a9bb3-ea51-4e60-bcc6-85d8df9a5e53:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      product_categories: product_categories
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: f76a9bb3-ea51-4e60-bcc6-85d8df9a5e53
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,10 @@
+uuid: c461849c-fe95-412a-b25b-d450ef297b04
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.t1
+label: 'Teaser card (cropped media)'
+targetEntityType: node
+cache: true

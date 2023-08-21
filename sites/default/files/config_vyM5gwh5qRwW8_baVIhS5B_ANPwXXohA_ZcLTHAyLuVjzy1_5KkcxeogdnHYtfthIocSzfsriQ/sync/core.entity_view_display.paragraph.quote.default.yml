@@ -1,0 +1,31 @@
+uuid: ca824e69-e82b-451b-b744-28ec82b7ce83
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.quote.field_source
+    - field.field.paragraph.quote.field_text
+    - paragraphs.paragraphs_type.quote
+  module:
+    - text
+id: paragraph.quote.default
+targetEntityType: paragraph
+bundle: quote
+mode: default
+content:
+  field_source:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_text:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

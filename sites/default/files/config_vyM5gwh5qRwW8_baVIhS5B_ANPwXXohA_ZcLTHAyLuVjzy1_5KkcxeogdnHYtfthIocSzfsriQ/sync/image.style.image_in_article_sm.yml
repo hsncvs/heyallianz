@@ -1,0 +1,15 @@
+uuid: 49f008e8-8611-4923-8752-d414e59a60b5
+langcode: en
+status: true
+dependencies: {  }
+name: image_in_article_sm
+label: 'Image in Article (small devices)'
+effects:
+  aaa3d26d-700a-458b-8390-1358bc9e248b:
+    uuid: aaa3d26d-700a-458b-8390-1358bc9e248b
+    id: image_scale
+    weight: 1
+    data:
+      width: 420
+      height: null
+      upscale: false

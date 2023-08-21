@@ -1,0 +1,376 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/turkey-gravy-secrets-revealed?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_channel": [
+            {
+                "href": "http:\/\/default\/travel-eats?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_paragraphs": [
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "href": "http:\/\/default\/tag\/food-recipes?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/default\/tag\/tasty?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_teaser_media": [
+            {
+                "href": "http:\/\/default\/media\/55?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 10
+        }
+    ],
+    "uuid": [
+        {
+            "value": "64e3522a-92c7-422e-8d64-273d3e71a22f"
+        }
+    ],
+    "vid": [
+        {
+            "value": 98
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-01-30T12:57:18+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "71a820d3-46ab-410a-9c30-77559f56ab66"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "71a820d3-46ab-410a-9c30-77559f56ab66"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_channel": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/travel-eats?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/channel"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "73adea85-3d25-4a62-ae4c-00e8649a8aeb"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_paragraphs": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/text"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8f9c99a6-836e-4be9-b1f1-c690a48feb32"
+                    }
+                ],
+                "target_revision_id": "231"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/instagram"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad03edcf-9243-4b77-8319-b3a456b8bb21"
+                    }
+                ],
+                "target_revision_id": "374"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/text"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "31f376d6-70b8-4751-b216-756fb10f3667"
+                    }
+                ],
+                "target_revision_id": "375"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tag\/food-recipes?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "87116bc9-ad88-4054-8dcb-90c298e0f091"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tag\/tasty?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "747e8300-091a-4658-a67a-7bd99dcbea2c"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_teaser_media": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/55?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d486ac54-9338-4b97-8904-8d64aa11bc1d"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Turkey Gravy Secrets Revealed",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-01-30T12:56:48+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-01-04T07:46:39+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "editors_picks": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "featured_item": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "teaser_featured": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "teaser_highlighted": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Turkey Gravy Secrets Revealed | EM Magazine",
+                "twitter_cards_type": "summary_large_image",
+                "canonical_url": "http:\/\/default\/turkey-gravy-secrets-revealed",
+                "robots": "index, follow",
+                "description": "Praesent porttitor ullamcorper risus, et ullamcorper sapien aliquam nec. Nunc a fringilla ante.",
+                "twitter_cards_title": "Combo 6",
+                "og_type": "article",
+                "twitter_cards_description": "Praesent porttitor ullamcorper risus, et ullamcorper sapien aliquam nec. Nunc a fringilla ante.",
+                "og_url": "http:\/\/default\/combo\/6",
+                "og_title": "Combo 6",
+                "image_src": "http:\/\/default\/sites\/default\/files\/2018-10\/default-img_1.png",
+                "keywords": "food recipes, tasty",
+                "twitter_cards_page_url": "http:\/\/default\/turkey-gravy-secrets-revealed",
+                "og_description": "Praesent porttitor ullamcorper risus, et ullamcorper sapien aliquam nec. Nunc a fringilla ante.",
+                "twitter_cards_image_width": "1024",
+                "twitter_cards_image": "http:\/\/default\/sites\/default\/files\/styles\/twitter\/public\/2018-10\/default-img_1.png?h=f87a8817&itok=hvDUrsuG",
+                "twitter_cards_image_height": "512",
+                "og_image_0": "http:\/\/default\/sites\/default\/files\/styles\/facebook\/public\/2018-10\/default-img_1.png?h=f87a8817&itok=KWwSECQj",
+                "og_image_width": "1200",
+                "og_image_height": "630",
+                "og_updated_time": "2020-01-04T07:46:39+00:00",
+                "article_tag_0": "food recipes",
+                "article_tag_1": "tasty",
+                "article_published_time": "2018-01-30T12:56:48+00:00",
+                "article_modified_time": "2020-01-04T07:46:39+00:00"
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/turkey-gravy-secrets-revealed",
+            "pid": 4,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "comment": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1522214122,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0,
+            "lang": "en"
+        }
+    ],
+    "field_teaser_text": [
+        {
+            "value": " Praesent porttitor ullamcorper risus, et ullamcorper sapien aliquam nec. Nunc a fringilla ante."
+        }
+    ],
+    "panelizer": [
+        {
+            "view_mode": "full",
+            "default": "layout_1",
+            "panels_display": [],
+            "lang": "en"
+        }
+    ]
+}

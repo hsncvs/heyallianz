@@ -1,0 +1,24 @@
+uuid: 8e2a8539-d0ad-4e27-941e-ddc41c2a0056
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.em_latest
+  module:
+    - views
+  theme:
+    - em_magazine
+id: views_block__em_latest_block_1
+theme: em_magazine
+region: offcanvas_sidebar
+weight: -5
+provider: null
+plugin: 'views_block:em_latest-block_1'
+settings:
+  id: 'views_block:em_latest-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

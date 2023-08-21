@@ -1,0 +1,38 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/poll_choice\/poll_choice"
+        }
+    },
+    "id": [
+        {
+            "value": 2
+        }
+    ],
+    "uuid": [
+        {
+            "value": "8f469b0f-a8e7-4268-ade2-e70162211528"
+        }
+    ],
+    "choice": [
+        {
+            "value": "Meh\/Whatever",
+            "lang": "en"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ]
+}

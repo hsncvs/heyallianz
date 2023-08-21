@@ -1,0 +1,12 @@
+uuid: 7b293282-2663-4b97-8ea3-1d2fb0f63f3e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: Mz9qWr1kUYK0mjRAGDsr5XS6PvtZ24en_7ndt-pyWe4
+id: node.teaser
+label: 'Teaser (dynamic)'
+targetEntityType: node
+cache: true

@@ -1,0 +1,32 @@
+uuid: d7b8a4cc-86ad-410f-9be3-4afcf868a0a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.large_background
+    - field.field.media.image.field_description
+    - field.field.media.image.field_image
+    - image.style.large_background
+    - media.type.image
+  module:
+    - image
+id: media.image.large_background
+targetEntityType: media
+bundle: image
+mode: large_background
+content:
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: large_background
+    third_party_settings: {  }
+    type: image_url
+    region: content
+hidden:
+  created: true
+  field_description: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

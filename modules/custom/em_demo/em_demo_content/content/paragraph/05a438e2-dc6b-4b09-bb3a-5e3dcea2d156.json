@@ -1,0 +1,88 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/text"
+        }
+    },
+    "id": [
+        {
+            "value": 14
+        }
+    ],
+    "uuid": [
+        {
+            "value": "05a438e2-dc6b-4b09-bb3a-5e3dcea2d156"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 159
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "text"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-12-24T17:01:59+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "4"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_paragraphs"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_text": [
+        {
+            "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id mattis ante. Etiam varius diam sit amet est feugiat, vitae faucibus neque molestie. Quisque arcu velit, semper quis semper non, vulputate vitae arcu. Aliquam nulla orci, blandit eget diam nec, ullamcorper hendrerit sem.<\/p>\r\n",
+            "format": "full_html",
+            "processed": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id mattis ante. Etiam varius diam sit amet est feugiat, vitae faucibus neque molestie. Quisque arcu velit, semper quis semper non, vulputate vitae arcu. Aliquam nulla orci, blandit eget diam nec, ullamcorper hendrerit sem.<\/p>\n"
+        }
+    ]
+}

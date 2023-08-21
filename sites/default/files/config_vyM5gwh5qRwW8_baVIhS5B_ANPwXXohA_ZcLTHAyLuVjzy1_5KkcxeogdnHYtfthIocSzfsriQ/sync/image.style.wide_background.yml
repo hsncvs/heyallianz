@@ -1,0 +1,17 @@
+uuid: a38a06c3-5f04-46e1-9e48-80e21cf4b0a8
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: wide_background
+label: 'Background (Wide 1600x800)'
+effects:
+  17055700-5a0d-4e77-8a55-845ab197811d:
+    uuid: 17055700-5a0d-4e77-8a55-845ab197811d
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 1600
+      height: 800
+      crop_type: focal_point

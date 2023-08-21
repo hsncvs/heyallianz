@@ -1,0 +1,21 @@
+uuid: 48cb6c62-ffbc-40c6-af5f-757fe51d355a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.panelizer
+    - node.type.article
+  module:
+    - panelizer
+id: node.article.panelizer
+field_name: panelizer
+entity_type: node
+bundle: article
+label: Panelizer
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: panelizer

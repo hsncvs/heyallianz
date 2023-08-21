@@ -1,0 +1,10 @@
+uuid: a39c6849-f4b8-48a2-94bf-f46ecbd9d675
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.t4
+label: 'Small teaser card'
+targetEntityType: node
+cache: true

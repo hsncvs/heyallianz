@@ -1,0 +1,22 @@
+uuid: f7927621-a2ca-4f33-8e18-61a613b01ff2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.instagram.field_media
+    - paragraphs.paragraphs_type.instagram
+id: paragraph.instagram.default
+targetEntityType: paragraph
+bundle: instagram
+mode: default
+content:
+  field_media:
+    weight: 0
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+hidden: {  }

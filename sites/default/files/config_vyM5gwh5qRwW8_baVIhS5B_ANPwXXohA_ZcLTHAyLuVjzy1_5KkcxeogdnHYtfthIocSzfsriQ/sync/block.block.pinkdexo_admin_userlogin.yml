@@ -1,0 +1,22 @@
+uuid: 6c28293c-24e8-486b-a1b0-e5d681f74c42
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - pinkdexo_admin
+_core:
+  default_config_hash: liKZajdD1D07pmBDxmV75YJuGHw6wwUF7POIS9jvTPA
+id: pinkdexo_admin_userlogin
+theme: pinkdexo_admin
+region: content
+weight: 5
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: visible
+visibility: {  }

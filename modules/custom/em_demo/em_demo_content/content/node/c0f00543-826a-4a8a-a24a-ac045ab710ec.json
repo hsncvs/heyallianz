@@ -1,0 +1,329 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/fragrances-can-often-reflect-our-mood-and-personality?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_channel": [
+            {
+                "href": "http:\/\/default\/beauty?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_paragraphs": [
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_teaser_media": [
+            {
+                "href": "http:\/\/default\/media\/55?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 14
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c0f00543-826a-4a8a-a24a-ac045ab710ec"
+        }
+    ],
+    "vid": [
+        {
+            "value": 144
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-04-18T11:58:47+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "71a820d3-46ab-410a-9c30-77559f56ab66"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "71a820d3-46ab-410a-9c30-77559f56ab66"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_channel": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/beauty?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/channel"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "cdd5ca56-0182-4971-927d-dc4e6794a4f2"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_paragraphs": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/text"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "910d96a4-a3ba-47b7-86ca-d126c14bd05c"
+                    }
+                ],
+                "target_revision_id": "396"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "fcf9b97f-ab4a-48a8-bf20-2e9c535ee51f"
+                    }
+                ],
+                "target_revision_id": "397"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/text"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "668e1018-7fa4-4b42-a813-e8c7e53604e3"
+                    }
+                ],
+                "target_revision_id": "398"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_teaser_media": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/55?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d486ac54-9338-4b97-8904-8d64aa11bc1d"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Fragrances can often reflect our mood and personality",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-01-30T14:40:17+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-30T22:30:18+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "editors_picks": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "featured_item": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "teaser_featured": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "teaser_highlighted": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Fragrances can often reflect our mood and personality | EM Magazine",
+                "twitter_cards_type": "summary_large_image",
+                "canonical_url": "http:\/\/default\/fragrances-can-often-reflect-our-mood-and-personality",
+                "robots": "index, follow",
+                "description": "Aliquam erat augue, tempus sed erat non, venenatis sodales nisi. Etiam facilisis bibendum commodo.",
+                "twitter_cards_title": "Combo 6",
+                "og_type": "article",
+                "twitter_cards_description": "Aliquam erat augue, tempus sed erat non, venenatis sodales nisi. Etiam facilisis bibendum commodo.",
+                "og_url": "http:\/\/default\/combo\/6",
+                "og_title": "Combo 6",
+                "image_src": "http:\/\/default\/sites\/default\/files\/2018-10\/default-img_1.png",
+                "twitter_cards_page_url": "http:\/\/default\/fragrances-can-often-reflect-our-mood-and-personality",
+                "og_description": "Aliquam erat augue, tempus sed erat non, venenatis sodales nisi. Etiam facilisis bibendum commodo.",
+                "twitter_cards_image_width": "1024",
+                "twitter_cards_image": "http:\/\/default\/sites\/default\/files\/styles\/twitter\/public\/2018-10\/default-img_1.png?h=f87a8817&itok=hvDUrsuG",
+                "twitter_cards_image_height": "512",
+                "og_image_0": "http:\/\/default\/sites\/default\/files\/styles\/facebook\/public\/2018-10\/default-img_1.png?h=f87a8817&itok=KWwSECQj",
+                "og_image_width": "1200",
+                "og_image_height": "630",
+                "og_updated_time": "2018-10-30T22:30:18+00:00",
+                "article_published_time": "2018-01-30T14:40:17+00:00",
+                "article_modified_time": "2018-10-30T22:30:18+00:00"
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/fragrances-can-often-reflect-our-mood-and-personality",
+            "pid": 44,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "comment": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1540938618,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0,
+            "lang": "en"
+        }
+    ],
+    "field_teaser_text": [
+        {
+            "value": "Aliquam erat augue, tempus sed erat non, venenatis sodales nisi. Etiam facilisis bibendum commodo."
+        }
+    ],
+    "panelizer": [
+        {
+            "view_mode": "full",
+            "default": "default",
+            "panels_display": [],
+            "lang": "en"
+        }
+    ]
+}

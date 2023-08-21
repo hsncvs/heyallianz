@@ -1,0 +1,16 @@
+uuid: a932d172-6f7e-4d9e-81db-97b06dcaf609
+langcode: en
+status: true
+dependencies: {  }
+id: home_page_combo
+label: 'Home Page (Combo)'
+description: ''
+use_admin_theme: false
+path: '/combo/{layout}'
+access_logic: and
+access_conditions: {  }
+parameters:
+  layout:
+    machine_name: layout
+    type: string
+    label: Layout

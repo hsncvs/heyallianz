@@ -1,0 +1,17 @@
+uuid: bf37c750-bc4e-482e-9848-2890581630d9
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: t5
+label: 'Teaser Card - Large (730×456)'
+effects:
+  8adebcbd-c9fb-4d76-819c-ce0528190ae3:
+    uuid: 8adebcbd-c9fb-4d76-819c-ce0528190ae3
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 730
+      height: 456
+      crop_type: focal_point

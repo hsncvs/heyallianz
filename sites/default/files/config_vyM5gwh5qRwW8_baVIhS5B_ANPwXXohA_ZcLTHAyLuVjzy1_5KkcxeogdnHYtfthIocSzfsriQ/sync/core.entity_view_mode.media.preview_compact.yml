@@ -1,0 +1,10 @@
+uuid: 7ebae65f-9618-4a16-a1d7-b0fbc0fb0e62
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.preview_compact
+label: 'Preview (Compact)'
+targetEntityType: media
+cache: true

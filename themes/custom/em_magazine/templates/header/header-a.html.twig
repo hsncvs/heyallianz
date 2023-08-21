@@ -1,0 +1,54 @@
+<div class="header header-a">
+
+{{ page.header_banner }}
+
+
+  {# Header Top #}
+  {# ---------- #}
+	
+
+  <div class="header--top-wrapper">
+    <div class="container">
+      <div class="row justify-content-between align-items-center header-top">
+        <div class="col-auto">
+       
+        </div>
+        <div class="col-auto">{% include '@em_magazine/components/social-media-pages.html.twig' %}</div>
+      </div>
+    </div>
+  </div>
+
+
+  {# Header Bottom #}
+  {# ------------- #}
+
+  <div class="header--bottom-wrapper js-sticky-header-element">
+    <div class="container">
+      <div class="row justify-content-between align-items-center header-bottom">
+        <div class="col-auto">{% include '@em_magazine/components/logo.html.twig' %}</div>
+        <div class="col-auto">
+          <div class="row justify-content-end align-items-center">
+            <div class="col-auto d-none d-lg-block">{{ page.header_main_menu }}</div>
+            <div class="col-auto d-flex">
+            
+   		 		{{ page.languages }}
+
+              {% include '@em_magazine/header/components/action-menu.html.twig' %}
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  {# Search block #}
+  {# ------------ #}
+
+  {% if pd.modules.search %}
+    <div class="search-block-wrapper js-search-block-wrapper">
+      {{ pd.block.search }}
+    </div>
+  {% endif %}
+</div>

@@ -1,0 +1,9 @@
+uuid: ee6d2395-5453-4f7c-bc1f-4a2536a0867e
+langcode: en
+status: true
+dependencies: {  }
+id: gallery
+label: 'Gallery Slider'
+icon_uuid: null
+description: 'Gallery Slider'
+behavior_plugins: {  }

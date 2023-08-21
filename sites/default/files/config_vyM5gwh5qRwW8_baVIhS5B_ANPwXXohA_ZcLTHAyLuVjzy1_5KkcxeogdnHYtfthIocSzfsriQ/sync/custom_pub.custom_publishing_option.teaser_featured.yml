@@ -1,0 +1,7 @@
+uuid: 552b68f4-6d5e-4692-a20e-5fe714f181a7
+langcode: en
+status: true
+dependencies: {  }
+id: teaser_featured
+label: 'Teaser (Featured)'
+description: 'Use featured style teaser for this item.'

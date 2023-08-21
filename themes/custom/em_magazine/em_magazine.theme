@@ -1,0 +1,39 @@
+<?php
+
+/**
+ * Implements hook_page_attachments_alter().
+ */
+function em_magazine_page_attachments_alter(array &$attachments) {
+  $moduleHandler = \Drupal::service('module_handler');
+
+  /**
+   * Attach color library
+   */
+  if($moduleHandler->moduleExists('color')) {
+    $attachments['#attached']['library'][] = 'em_magazine/color-library';
+  }
+
+  /*
+ * Attach Custom CSS if enabled
+ */
+  if(theme_get_setting('pd_custom_css_file')) {
+    $attachments['#attached']['library'][] = 'em_magazine/custom-css';
+  }
+}
+
+function em_magazine_preprocess_html(&$variables) {
+  $language = \Drupal::languageManager()->getCurrentLanguage()->getId();
+  $variables['language'] = $language;
+}
+
+function em_magazine_preprocess_page(&$variables) {
+  $variables['lang'] = \Drupal::languageManager()->getCurrentLanguage()->getId();
+}
+
+function em_magazine_preprocess_block(&$variables) {
+  $variables['front_page'] = \Drupal::service('path.matcher')->isFrontPage();
+  
+  $variables['lang'] = \Drupal::languageManager()->getCurrentLanguage()->getId();
+
+}
+

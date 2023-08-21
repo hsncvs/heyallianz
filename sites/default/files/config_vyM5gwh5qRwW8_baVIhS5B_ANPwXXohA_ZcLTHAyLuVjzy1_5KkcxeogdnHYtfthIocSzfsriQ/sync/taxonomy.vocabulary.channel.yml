@@ -1,0 +1,8 @@
+uuid: aea5e2b8-2e2e-4a9c-a52b-b2747fe27c4b
+langcode: en
+status: true
+dependencies: {  }
+name: Channel
+vid: channel
+description: 'Use categories to categorize the content.'
+weight: 0

@@ -1,0 +1,32 @@
+uuid: 95119682-0a60-4798-b05d-7d8984beb2b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.wide_background
+    - field.field.media.image.field_description
+    - field.field.media.image.field_image
+    - image.style.wide_background
+    - media.type.image
+  module:
+    - image
+id: media.image.wide_background
+targetEntityType: media
+bundle: image
+mode: wide_background
+content:
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: wide_background
+    third_party_settings: {  }
+    type: image_url
+    region: content
+hidden:
+  created: true
+  field_description: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

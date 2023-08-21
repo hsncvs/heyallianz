@@ -1,0 +1,7 @@
+uuid: 4797d32e-e111-4999-b9f0-c3290c6009d0
+langcode: en
+status: true
+dependencies: {  }
+id: editors_picks
+label: 'Editor''s Picks'
+description: 'The item will appear in the Editor''s Picks block.'

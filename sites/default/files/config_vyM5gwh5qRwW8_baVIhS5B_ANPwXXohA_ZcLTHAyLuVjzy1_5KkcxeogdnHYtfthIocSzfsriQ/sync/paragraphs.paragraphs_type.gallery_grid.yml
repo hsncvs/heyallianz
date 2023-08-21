@@ -1,0 +1,9 @@
+uuid: e5fbf7b3-8ef6-49fb-917f-a2abf4ac1ec5
+langcode: en
+status: true
+dependencies: {  }
+id: gallery_grid
+label: 'Gallery Grid'
+icon_uuid: null
+description: 'Gallery Grid'
+behavior_plugins: {  }

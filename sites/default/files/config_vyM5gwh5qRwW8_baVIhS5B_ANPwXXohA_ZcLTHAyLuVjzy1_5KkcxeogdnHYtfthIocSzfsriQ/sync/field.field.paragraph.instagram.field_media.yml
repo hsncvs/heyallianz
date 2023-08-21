@@ -1,0 +1,28 @@
+uuid: 7c3401bf-56c5-4a3f-979b-58789b246eab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_media
+    - media.type.instagram
+    - paragraphs.paragraphs_type.instagram
+id: paragraph.instagram.field_media
+field_name: field_media
+entity_type: paragraph
+bundle: instagram
+label: Instagram
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      instagram: instagram
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

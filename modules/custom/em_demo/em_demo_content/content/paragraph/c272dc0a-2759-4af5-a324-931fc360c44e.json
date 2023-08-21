@@ -1,0 +1,88 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/text"
+        }
+    },
+    "id": [
+        {
+            "value": 64
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c272dc0a-2759-4af5-a324-931fc360c44e"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 363
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "text"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-12-23T23:02:00+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "1"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_paragraphs"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_text": [
+        {
+            "value": "<p>Aliquam porta cursus sapien sed rutrum. Sed consequat elit nec dapibus volutpat. Pellentesque at fringilla diam. Maecenas maximus turpis fermentum ipsum tempus viverra. Pellentesque dapibus tincidunt mi, nec tempus ipsum blandit nec. Aenean eu turpis fringilla, placerat augue euismod, viverra orci. Pellentesque lacinia volutpat nibh in faucibus. Cras sit amet massa tellus. Fusce pellentesque, orci quis sodales dignissim, risus enim lobortis turpis, sed lacinia sem purus sed nulla.<\/p>\r\n\r\n<p>Sed nec blandit tellus. Vivamus metus nisi, ullamcorper non purus euismod, venenatis tristique libero. Aenean aliquet luctus libero ac eleifend. Etiam vel quam eget tortor tincidunt semper. Vivamus nunc enim, vulputate vel tempor nec, ullamcorper vel nulla. Sed pretium sapien in nibh rutrum dignissim. In quis nulla imperdiet, mattis justo nec, pharetra felis. Quisque lorem tortor, pharetra vitae elit pellentesque, gravida sodales tellus. Nullam sagittis tellus sed nisl auctor, et luctus orci tincidunt. Vestibulum ac magna metus. In hac habitasse platea dictumst. Donec quis massa tempus, ultrices arcu quis, egestas leo.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Aliquam porta cursus sapien sed rutrum. Sed consequat elit nec dapibus volutpat. Pellentesque at fringilla diam. Maecenas maximus turpis fermentum ipsum tempus viverra. Pellentesque dapibus tincidunt mi, nec tempus ipsum blandit nec. Aenean eu turpis fringilla, placerat augue euismod, viverra orci. Pellentesque lacinia volutpat nibh in faucibus. Cras sit amet massa tellus. Fusce pellentesque, orci quis sodales dignissim, risus enim lobortis turpis, sed lacinia sem purus sed nulla.<\/p>\n\n<p>Sed nec blandit tellus. Vivamus metus nisi, ullamcorper non purus euismod, venenatis tristique libero. Aenean aliquet luctus libero ac eleifend. Etiam vel quam eget tortor tincidunt semper. Vivamus nunc enim, vulputate vel tempor nec, ullamcorper vel nulla. Sed pretium sapien in nibh rutrum dignissim. In quis nulla imperdiet, mattis justo nec, pharetra felis. Quisque lorem tortor, pharetra vitae elit pellentesque, gravida sodales tellus. Nullam sagittis tellus sed nisl auctor, et luctus orci tincidunt. Vestibulum ac magna metus. In hac habitasse platea dictumst. Donec quis massa tempus, ultrices arcu quis, egestas leo.<\/p>"
+        }
+    ]
+}

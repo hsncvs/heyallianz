@@ -1,0 +1,16 @@
+uuid: fba7b954-99ab-4312-8f40-57e25b0ed217
+langcode: en
+status: true
+dependencies: {  }
+id: taxonomy_term
+label: 'Taxonomy Term'
+description: 'Categories and tags pages.'
+use_admin_theme: false
+path: '/taxonomy/term/{taxonomy_term}'
+access_logic: and
+access_conditions: {  }
+parameters:
+  taxonomy_term:
+    machine_name: taxonomy_term
+    type: 'entity:taxonomy_term'
+    label: 'Term ID'

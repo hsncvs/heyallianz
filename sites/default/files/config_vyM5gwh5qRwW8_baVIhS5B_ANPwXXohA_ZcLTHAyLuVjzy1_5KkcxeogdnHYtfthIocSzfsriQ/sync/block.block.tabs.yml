@@ -1,0 +1,20 @@
+uuid: 2bbe7d0e-3fa4-4dc4-a70a-f6475ebfaed8
+langcode: en
+status: true
+dependencies:
+  theme:
+    - em_magazine
+id: tabs
+theme: em_magazine
+region: tabs
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

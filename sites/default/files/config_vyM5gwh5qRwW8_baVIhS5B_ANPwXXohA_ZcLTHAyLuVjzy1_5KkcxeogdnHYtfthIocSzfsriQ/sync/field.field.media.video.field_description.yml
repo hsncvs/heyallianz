@@ -1,0 +1,18 @@
+uuid: 77b78acc-662b-4552-a6f1-d1f08b43350b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_description
+id: media.video.field_description
+field_name: field_description
+entity_type: media
+bundle: video
+label: Description/Caption
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

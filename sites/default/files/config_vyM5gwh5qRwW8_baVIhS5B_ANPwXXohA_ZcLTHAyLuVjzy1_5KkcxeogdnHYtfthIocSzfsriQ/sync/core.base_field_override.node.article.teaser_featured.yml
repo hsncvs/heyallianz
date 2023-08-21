@@ -1,0 +1,23 @@
+uuid: 02b0452b-22cf-46c5-bfef-b45bc3e75a01
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.article
+    - custom_pub.custom_publishing_option.teaser_featured
+id: node.article.teaser_featured
+field_name: teaser_featured
+entity_type: node
+bundle: article
+label: 'Teaser (Featured)'
+description: 'Use featured style teaser for this item.'
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

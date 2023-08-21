@@ -1,0 +1,24 @@
+uuid: e91a58ef-8ce8-4e76-9554-b44a48375835
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.image_in_article
+    - image.style.image_in_article_sm
+  theme:
+    - em
+id: image_in_article
+label: 'Image in Article'
+image_style_mappings:
+  -
+    breakpoint_id: em.md
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: image_in_article
+  -
+    breakpoint_id: em.xs
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: image_in_article_sm
+breakpoint_group: em
+fallback_image_style: image_in_article

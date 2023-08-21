@@ -1,0 +1,198 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/privacy-policy?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 17
+        }
+    ],
+    "uuid": [
+        {
+            "value": "67f012b1-d082-43d9-803f-bce88d9afdb1"
+        }
+    ],
+    "vid": [
+        {
+            "value": 137
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-03-26T12:38:27+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "71a820d3-46ab-410a-9c30-77559f56ab66"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "71a820d3-46ab-410a-9c30-77559f56ab66"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Privacy Policy",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-03-05T14:30:43+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-03-26T12:38:27+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "editors_picks": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "featured_item": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "teaser_featured": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "teaser_highlighted": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Privacy Policy | EM Magazine",
+                "twitter_cards_type": "summary_large_image",
+                "canonical_url": "http:\/\/default\/privacy-policy",
+                "robots": "index, follow",
+                "twitter_cards_title": "Combo 6",
+                "og_type": "article",
+                "og_url": "http:\/\/default\/combo\/6",
+                "og_title": "Combo 6",
+                "twitter_cards_page_url": "http:\/\/default\/privacy-policy",
+                "og_updated_time": "2018-03-26T13:38:27+01:00",
+                "article_published_time": "2018-03-05T14:30:43+00:00",
+                "article_modified_time": "2018-03-26T13:38:27+01:00"
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/privacy-policy",
+            "pid": 48,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut turpis nunc. Donec eu semper nibh. Morbi eleifend mi non nulla luctus, a maximus lacus tempor. Curabitur vulputate ornare augue, eu accumsan mauris. Sed velit dolor, vestibulum a diam et, varius scelerisque nisl. Duis et consequat purus. Cras et nulla eget felis consequat egestas ut quis sem.<\/p>\r\n\r\n<p>Praesent luctus lectus sem, in hendrerit augue feugiat non. Fusce tempor commodo mi. Etiam fringilla porttitor sapien at rutrum. Cras lacus tortor, consectetur ut diam vitae, pellentesque laoreet ipsum. Sed at vulputate ex. Integer interdum nibh sapien, ac ultrices sapien faucibus eu. Sed egestas purus sed orci auctor accumsan. Aliquam vel augue eleifend, iaculis sapien ut, volutpat urna. Ut placerat eros risus, eget volutpat purus ultrices nec. Sed interdum felis sed massa porttitor dictum. Duis sed feugiat arcu. Aliquam justo turpis, tincidunt id lorem eget, imperdiet varius ipsum.<\/p>\r\n\r\n<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla libero ipsum, accumsan eu sodales non, ullamcorper in elit. Aliquam varius tempor ante vel pellentesque. Curabitur ac tincidunt odio. Suspendisse finibus risus ac ligula congue tristique vel quis tellus. Donec sed elit rutrum, sagittis lorem eu, ullamcorper lectus. Sed posuere mauris mattis, auctor sapien a, ultrices nisl. Nunc congue metus ut diam ultricies fermentum. In hac habitasse platea dictumst. Fusce vel ligula eget massa sagittis suscipit et eu ex. Ut vel mattis magna.<\/p>\r\n\r\n<p>Donec a lacus rhoncus, tempus turpis at, rhoncus tellus. Mauris auctor dolor in rutrum faucibus. In hac habitasse platea dictumst. Ut tincidunt lectus sit amet turpis molestie, vel maximus erat ullamcorper. Quisque cursus purus at odio egestas, vel ornare dui interdum. In hac habitasse platea dictumst. Nulla congue porttitor sem eu molestie. Quisque at interdum nunc. Nullam convallis nibh consectetur ante maximus, a aliquam mauris maximus. Cras eget volutpat mi, vitae egestas justo. Vestibulum volutpat odio quis libero rutrum aliquet. Donec vel leo et diam viverra malesuada. Nunc gravida lectus at augue efficitur, vitae tincidunt enim varius. Nam vehicula lectus nisi, sed molestie ex laoreet non. Mauris condimentum luctus arcu sed laoreet.<\/p>\r\n\r\n<p>Nam quis interdum turpis. Pellentesque lacinia nunc ut accumsan tristique. Aliquam erat volutpat. In accumsan leo ante, nec fermentum eros hendrerit vehicula. Suspendisse potenti. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat malesuada tortor ut lacinia. Donec vulputate cursus porta. Integer turpis tellus, pulvinar at nulla ac, feugiat consequat dui. Nulla facilisi. Aliquam erat volutpat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris sit amet massa finibus, pellentesque neque id, varius tortor. Integer libero est, faucibus vehicula auctor ac, tempus a est.<\/p>\r\n",
+            "format": "full_html",
+            "processed": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut turpis nunc. Donec eu semper nibh. Morbi eleifend mi non nulla luctus, a maximus lacus tempor. Curabitur vulputate ornare augue, eu accumsan mauris. Sed velit dolor, vestibulum a diam et, varius scelerisque nisl. Duis et consequat purus. Cras et nulla eget felis consequat egestas ut quis sem.<\/p>\n\n<p>Praesent luctus lectus sem, in hendrerit augue feugiat non. Fusce tempor commodo mi. Etiam fringilla porttitor sapien at rutrum. Cras lacus tortor, consectetur ut diam vitae, pellentesque laoreet ipsum. Sed at vulputate ex. Integer interdum nibh sapien, ac ultrices sapien faucibus eu. Sed egestas purus sed orci auctor accumsan. Aliquam vel augue eleifend, iaculis sapien ut, volutpat urna. Ut placerat eros risus, eget volutpat purus ultrices nec. Sed interdum felis sed massa porttitor dictum. Duis sed feugiat arcu. Aliquam justo turpis, tincidunt id lorem eget, imperdiet varius ipsum.<\/p>\n\n<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla libero ipsum, accumsan eu sodales non, ullamcorper in elit. Aliquam varius tempor ante vel pellentesque. Curabitur ac tincidunt odio. Suspendisse finibus risus ac ligula congue tristique vel quis tellus. Donec sed elit rutrum, sagittis lorem eu, ullamcorper lectus. Sed posuere mauris mattis, auctor sapien a, ultrices nisl. Nunc congue metus ut diam ultricies fermentum. In hac habitasse platea dictumst. Fusce vel ligula eget massa sagittis suscipit et eu ex. Ut vel mattis magna.<\/p>\n\n<p>Donec a lacus rhoncus, tempus turpis at, rhoncus tellus. Mauris auctor dolor in rutrum faucibus. In hac habitasse platea dictumst. Ut tincidunt lectus sit amet turpis molestie, vel maximus erat ullamcorper. Quisque cursus purus at odio egestas, vel ornare dui interdum. In hac habitasse platea dictumst. Nulla congue porttitor sem eu molestie. Quisque at interdum nunc. Nullam convallis nibh consectetur ante maximus, a aliquam mauris maximus. Cras eget volutpat mi, vitae egestas justo. Vestibulum volutpat odio quis libero rutrum aliquet. Donec vel leo et diam viverra malesuada. Nunc gravida lectus at augue efficitur, vitae tincidunt enim varius. Nam vehicula lectus nisi, sed molestie ex laoreet non. Mauris condimentum luctus arcu sed laoreet.<\/p>\n\n<p>Nam quis interdum turpis. Pellentesque lacinia nunc ut accumsan tristique. Aliquam erat volutpat. In accumsan leo ante, nec fermentum eros hendrerit vehicula. Suspendisse potenti. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat malesuada tortor ut lacinia. Donec vulputate cursus porta. Integer turpis tellus, pulvinar at nulla ac, feugiat consequat dui. Nulla facilisi. Aliquam erat volutpat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris sit amet massa finibus, pellentesque neque id, varius tortor. Integer libero est, faucibus vehicula auctor ac, tempus a est.<\/p>\n",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

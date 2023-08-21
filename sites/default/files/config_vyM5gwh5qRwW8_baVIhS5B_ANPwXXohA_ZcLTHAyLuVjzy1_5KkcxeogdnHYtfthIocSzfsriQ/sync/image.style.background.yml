@@ -1,0 +1,17 @@
+uuid: c5436c31-cdec-45d0-b1f3-a83c401e70e4
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: background
+label: 'Background (800x600)'
+effects:
+  c216f41b-5859-427a-944d-b96fb481fe27:
+    uuid: c216f41b-5859-427a-944d-b96fb481fe27
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 800
+      height: 800
+      crop_type: focal_point

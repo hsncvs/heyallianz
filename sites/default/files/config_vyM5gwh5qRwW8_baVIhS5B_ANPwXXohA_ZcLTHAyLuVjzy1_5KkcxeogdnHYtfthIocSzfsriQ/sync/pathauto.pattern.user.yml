@@ -1,0 +1,14 @@
+uuid: db223492-fcd1-4c37-9920-777f58db038a
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user
+label: User
+type: 'canonical_entities:user'
+pattern: '[user:field_account_name]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

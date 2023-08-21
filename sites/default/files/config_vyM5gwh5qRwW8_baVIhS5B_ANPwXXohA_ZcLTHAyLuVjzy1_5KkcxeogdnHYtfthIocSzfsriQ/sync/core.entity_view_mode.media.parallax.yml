@@ -1,0 +1,10 @@
+uuid: cef469d8-a253-4a62-9fcd-04af53f33744
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.parallax
+label: 'Wide Parallax'
+targetEntityType: media
+cache: true

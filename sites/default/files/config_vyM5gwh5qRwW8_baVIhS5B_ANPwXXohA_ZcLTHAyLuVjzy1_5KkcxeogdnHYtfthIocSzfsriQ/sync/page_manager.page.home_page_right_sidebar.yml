@@ -1,0 +1,16 @@
+uuid: d3e63382-c4dd-4ec9-aaaf-555c0d3243e5
+langcode: en
+status: true
+dependencies: {  }
+id: home_page_right_sidebar
+label: 'Home Page (Right Sidebar)'
+description: 'Home page examples with right sidebar'
+use_admin_theme: false
+path: '/right-sidebar/{layout}'
+access_logic: and
+access_conditions: {  }
+parameters:
+  layout:
+    machine_name: layout
+    type: string
+    label: Layout
